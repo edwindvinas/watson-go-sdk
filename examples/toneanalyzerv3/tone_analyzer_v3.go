@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/IBM/go-sdk-core/core"
-	"github.com/watson-developer-cloud/go-sdk/toneanalyzerv3"
+	"github.com/edwindvinas/watson-go-sdk/toneanalyzerv3"
 )
 
 func main() {

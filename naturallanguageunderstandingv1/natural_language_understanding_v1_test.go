@@ -21,7 +21,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/watson-developer-cloud/go-sdk/naturallanguageunderstandingv1"
+	"github.com/edwindvinas/watson-go-sdk/naturallanguageunderstandingv1"
 	"net/http"
 	"net/http/httptest"
 	"strings"

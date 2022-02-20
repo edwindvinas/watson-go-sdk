@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/IBM/go-sdk-core/core"
-	common "github.com/watson-developer-cloud/go-sdk/common"
+	common "github.com/edwindvinas/watson-go-sdk/common"
 )
 
 // Timings : An array of words and their start and end times in seconds from the beginning of the synthesized audio.

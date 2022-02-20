@@ -27,7 +27,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/comparecomplyv1"
+	"github.com/edwindvinas/watson-go-sdk/comparecomplyv1"
 )
 
 var service *comparecomplyv1.CompareComplyV1

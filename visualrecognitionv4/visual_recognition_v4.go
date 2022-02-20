@@ -24,7 +24,7 @@ import (
 
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/go-openapi/strfmt"
-	common "github.com/watson-developer-cloud/go-sdk/common"
+	common "github.com/edwindvinas/watson-go-sdk/common"
 )
 
 // VisualRecognitionV4 : Provide images to the IBM Watson&trade; Visual Recognition service for analysis. The service

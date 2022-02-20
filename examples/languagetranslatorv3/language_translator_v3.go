@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/IBM/go-sdk-core/core"
-	languagetranslator "github.com/watson-developer-cloud/go-sdk/languagetranslatorv3"
+	languagetranslator "github.com/edwindvinas/watson-go-sdk/languagetranslatorv3"
 )
 
 func main() {

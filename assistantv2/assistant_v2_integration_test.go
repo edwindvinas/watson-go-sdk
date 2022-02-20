@@ -26,7 +26,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/assistantv2"
+	"github.com/edwindvinas/watson-go-sdk/assistantv2"
 )
 
 var service *assistantv2.AssistantV2

@@ -20,7 +20,7 @@ package assistantv2
 import (
 	"fmt"
 	"github.com/IBM/go-sdk-core/core"
-	common "github.com/watson-developer-cloud/go-sdk/common"
+	common "github.com/edwindvinas/watson-go-sdk/common"
 )
 
 // AssistantV2 : The IBM Watson&trade; Assistant service combines machine learning, natural language understanding, and

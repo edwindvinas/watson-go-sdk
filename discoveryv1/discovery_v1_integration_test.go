@@ -27,7 +27,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/discoveryv1"
+	"github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 var service *discoveryv1.DiscoveryV1

@@ -6,7 +6,7 @@ import (
 
 	"github.com/IBM/go-sdk-core/core"
 
-	discovery "github.com/watson-developer-cloud/go-sdk/discoveryv1"
+	discovery "github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 func main() {

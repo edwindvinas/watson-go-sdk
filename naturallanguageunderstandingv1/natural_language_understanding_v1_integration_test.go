@@ -25,7 +25,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/naturallanguageunderstandingv1"
+	"github.com/edwindvinas/watson-go-sdk/naturallanguageunderstandingv1"
 )
 
 var service *naturallanguageunderstandingv1.NaturalLanguageUnderstandingV1

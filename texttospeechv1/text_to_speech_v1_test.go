@@ -6,7 +6,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/watson-developer-cloud/go-sdk/texttospeechv1"
+	"github.com/edwindvinas/watson-go-sdk/texttospeechv1"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

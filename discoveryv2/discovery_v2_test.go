@@ -26,7 +26,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/watson-developer-cloud/go-sdk/discoveryv2"
+	"github.com/edwindvinas/watson-go-sdk/discoveryv2"
 )
 
 var _ = Describe(`DiscoveryV2`, func() {

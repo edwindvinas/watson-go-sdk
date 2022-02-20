@@ -28,7 +28,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/personalityinsightsv3"
+	"github.com/edwindvinas/watson-go-sdk/personalityinsightsv3"
 )
 
 var service *personalityinsightsv3.PersonalityInsightsV3

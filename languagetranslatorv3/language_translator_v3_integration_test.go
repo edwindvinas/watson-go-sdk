@@ -26,7 +26,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/languagetranslatorv3"
+	"github.com/edwindvinas/watson-go-sdk/languagetranslatorv3"
 )
 
 var service *languagetranslatorv3.LanguageTranslatorV3

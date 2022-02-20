@@ -39,7 +39,7 @@ Go client library to quickly get started with the various [Watson APIs](https://
 
 Get SDK package:
 ```bash
-go get -u github.com/watson-developer-cloud/go-sdk@v1.2.0
+go get -u github.com/edwindvinas/watson-go-sdk@v1.2.0
 ```
 
 Note: For the latest tag release, look into [examples][examples] folder for basic and advanced examples.
@@ -83,7 +83,7 @@ The file downloaded will be called `ibm-credentials.env`. This is the name the S
 As long as you set that up correctly, you don't have to worry about setting any authentication options in your code. So, for example, if you created and downloaded the credential file for your Discovery instance, you just need to do the following:
 
 ```go
-import "github.com/watson-developer-cloud/go-sdk/servicev1"
+import "github.com/edwindvinas/watson-go-sdk/servicev1"
 
 service, serviceErr := servicev1.NewServiceV1(&servicev1.ServiceV1Options{
 	Version:   "2018-03-05",
@@ -118,7 +118,7 @@ You supply either an IAM service **API key** or an **access token**:
 
 ```go
 // In the constructor, letting the SDK manage the IAM token
-import "github.com/watson-developer-cloud/go-sdk/servicev1"
+import "github.com/edwindvinas/watson-go-sdk/servicev1"
 authenticator := &core.IamAuthenticator{
 	ApiKey: "<apikey>",
 }
@@ -132,7 +132,7 @@ service, serviceErr := servicev1.NewServiceV1(&servicev1.ServiceV1Options{
 
 ```go
 // In the constructor
-import "github.com/watson-developer-cloud/go-sdk/servicev1"
+import "github.com/edwindvinas/watson-go-sdk/servicev1"
 
 service, serviceErr := servicev1.NewServiceV1(&servicev1.ServiceV1Options{
 		URL:      "<service_url>",
@@ -156,7 +156,7 @@ package main
 
 import (
 "fmt"
-"github.com/watson-developer-cloud/go-sdk/discoveryv1"
+"github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 // Creates a Discovery service instance and does a list of environments
@@ -218,7 +218,7 @@ import (
   "net/http"
   "net/url"
 
-  discovery "github.com/watson-developer-cloud/go-sdk/discoveryv1"
+  discovery "github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 func main() {
@@ -265,7 +265,7 @@ package main
 
 import (
   "fmt"
-  discovery "github.com/watson-developer-cloud/go-sdk/discoveryv1"
+  discovery "github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 func main() {
@@ -315,7 +315,7 @@ package main
 
 import (
   "fmt"
-  discovery "github.com/watson-developer-cloud/go-sdk/discoveryv1"
+  discovery "github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 func main() {
@@ -348,7 +348,7 @@ package main
 
 import (
   "fmt"
-  discovery "github.com/watson-developer-cloud/go-sdk/discoveryv1"
+  discovery "github.com/edwindvinas/watson-go-sdk/discoveryv1"
 )
 
 func main() {
@@ -394,7 +394,7 @@ go test ./assistantv1
 ```
 
 ## Migrating
-* To move from `v0.11.0` to `v1.0.0`, refer to the [MIGRATION-V1](https://github.com/watson-developer-cloud/go-sdk/blob/master/MIGRATION-V1.md)
+* To move from `v0.11.0` to `v1.0.0`, refer to the [MIGRATION-V1](https://github.com/edwindvinas/watson-go-sdk/blob/master/MIGRATION-V1.md)
 
 ## Contributing
 
@@ -409,6 +409,6 @@ We'd love to highlight cool open-source projects that use this SDK! If you'd lik
 This library is licensed under the [Apache 2.0 license][license].
 
 [ibm-cloud-onboarding]: https://cloud.ibm.com/registration?target=%2Fdeveloper%2Fwatson&cm_sp=WatsonPlatform-WatsonServices-_-OnPageNavLink-IBMWatson_SDKs-_-Go
-[examples]: https://github.com/watson-developer-cloud/go-sdk/tree/master/examples
-[CONTRIBUTING]: https://github.com/watson-developer-cloud/go-sdk/blob/master/.github/CONTRIBUTING.md
+[examples]: https://github.com/edwindvinas/watson-go-sdk/tree/master/examples
+[CONTRIBUTING]: https://github.com/edwindvinas/watson-go-sdk/blob/master/.github/CONTRIBUTING.md
 [license]: http://www.apache.org/licenses/LICENSE-2.0

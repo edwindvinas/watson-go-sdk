@@ -27,7 +27,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/visualrecognitionv3"
+	"github.com/edwindvinas/watson-go-sdk/visualrecognitionv3"
 )
 
 var service *visualrecognitionv3.VisualRecognitionV3

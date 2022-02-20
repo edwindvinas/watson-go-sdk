@@ -28,7 +28,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/watson-developer-cloud/go-sdk/speechtotextv1"
+	"github.com/edwindvinas/watson-go-sdk/speechtotextv1"
 )
 
 var service *speechtotextv1.SpeechToTextV1

@@ -26,7 +26,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/watson-developer-cloud/go-sdk/comparecomplyv1"
+	"github.com/edwindvinas/watson-go-sdk/comparecomplyv1"
 )
 
 var _ = Describe("CompareComplyV1", func() {
